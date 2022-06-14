@@ -1,0 +1,28 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+        {
+            "label": "edit-creds",
+            "type": "shell",
+            "command": "/home/studio/workspace/avh_labs/certs/task.sh",
+            "problemMatcher": []
+        },
+        {
+            "label": "bash",
+            "type": "process",
+            "args": [
+                "-l"
+            ],
+            "command": "/bin/bash",
+            "presentation": {
+                "echo": false,
+                "focus": true,
+                "group": "build",
+                "panel": "dedicated"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
