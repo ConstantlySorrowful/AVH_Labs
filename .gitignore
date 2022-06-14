@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
-
+certs/cert.str
+certs/priv.str
+certs/*certificate*
+certs/*private*
 # Object files
 Objects
 *.o
