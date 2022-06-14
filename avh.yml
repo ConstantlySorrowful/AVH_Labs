@@ -3,7 +3,7 @@ workdir: ./
 backend:
   aws:
     ami-version: ~=1.2
-    instance-type: t2.micro
+    instance-type: t3.large
 upload:
   - amazon-freertos/**/*
   - Board/**/*
